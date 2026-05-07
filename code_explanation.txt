@@ -1,0 +1,25 @@
+How are products stored in your program?
+Products are stored as objects of the Product class, each containing details like ID, name, category, quantity, reorder level, reorder quantity, unit price, and vendor ID. 
+These objects are kept in a dictionary where the product ID is the key. This makes it easy to look up, edit, or deactivate products quickly. 
+When saving, each product is converted into a dictionary and written to the JSON file.
+
+How are purchase orders connected to vendors and products?
+Each purchase order includes a vendor ID that links it to a specific vendor and a list of items that reference product IDs. 
+This creates a clear relationship between vendors, products, and purchase orders. 
+When a purchase order is created, the program checks that both the vendor and products exist before adding them. This ensures data consistency across all parts of the system.
+
+How does receiving a shipment change inventory?
+When a purchase order is marked as received, the program loops through each item in that order and increases the corresponding product’s quantity in stock. 
+This simulates adding new inventory from the shipment. The purchase order’s status is then updated to “RECEIVED” to prevent duplicate updates. 
+This process keeps inventory levels accurate and up to date.
+
+How does your JSON save/load process work?
+The program uses the `load_data()` function to read the JSON file and convert each dictionary into class objects for products, vendors, and purchase orders. 
+The `save_data()` function reverses that process by converting objects back into dictionaries and writing them to the JSON file. This allows data to persist between program runs. 
+If the file is missing or invalid, the program starts with empty data and continues safely.
+
+What is one bug you fixed and how did you fix it?
+One major bug was the “cannot import load_data from file_manager” error. 
+It happened because invalid text from the browser was accidentally pasted into the Python file, breaking the syntax. 
+I fixed it by removing all non‑Python lines and verifying that the function name matched exactly in both the import statement and the file. 
+After cleaning the file, the program imported correctly and ran without errors.

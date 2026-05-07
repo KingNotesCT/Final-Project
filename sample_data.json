@@ -1,0 +1,82 @@
+{
+  "products": [
+    {"product_id": "P001", "name": "Espresso Beans", "category": "Coffee", "quantity_in_stock": 40, "reorder_level": 10, "reorder_quantity": 25, "unit_price": 14.50, "vendor_id": "V001", "active": true},
+    {"product_id": "P002", "name": "French Roast Beans", "category": "Coffee", "quantity_in_stock": 20, "reorder_level": 8, "reorder_quantity": 20, "unit_price": 13.75, "vendor_id": "V001", "active": true},
+    {"product_id": "P003", "name": "Cold Brew Bottles", "category": "Beverages", "quantity_in_stock": 60, "reorder_level": 15, "reorder_quantity": 30, "unit_price": 4.25, "vendor_id": "V002", "active": true},
+    {"product_id": "P004", "name": "Reusable Coffee Cups", "category": "Accessories", "quantity_in_stock": 35, "reorder_level": 10, "reorder_quantity": 20, "unit_price": 9.99, "vendor_id": "V003", "active": true},
+    {"product_id": "P005", "name": "Coffee Filters Pack", "category": "Supplies", "quantity_in_stock": 100, "reorder_level": 25, "reorder_quantity": 50, "unit_price": 3.50, "vendor_id": "V004", "active": true},
+    {"product_id": "P006", "name": "Hazelnut Syrup", "category": "Flavoring", "quantity_in_stock": 15, "reorder_level": 5, "reorder_quantity": 10, "unit_price": 7.25, "vendor_id": "V002", "active": true},
+    {"product_id": "P007", "name": "Vanilla Syrup", "category": "Flavoring", "quantity_in_stock": 18, "reorder_level": 6, "reorder_quantity": 12, "unit_price": 7.25, "vendor_id": "V002", "active": true},
+    {"product_id": "P008", "name": "Caramel Syrup", "category": "Flavoring", "quantity_in_stock": 12, "reorder_level": 5, "reorder_quantity": 10, "unit_price": 7.25, "vendor_id": "V002", "active": true},
+    {"product_id": "P009", "name": "Iced Coffee Cups", "category": "Accessories", "quantity_in_stock": 50, "reorder_level": 15, "reorder_quantity": 30, "unit_price": 6.50, "vendor_id": "V003", "active": true},
+    {"product_id": "P010", "name": "Cup Lids Pack", "category": "Supplies", "quantity_in_stock": 75, "reorder_level": 20, "reorder_quantity": 40, "unit_price": 2.75, "vendor_id": "V004", "active": true},
+    {"product_id": "P011", "name": "Espresso Machine Cleaner", "category": "Maintenance", "quantity_in_stock": 25, "reorder_level": 10, "reorder_quantity": 20, "unit_price": 11.99, "vendor_id": "V005", "active": true},
+    {"product_id": "P012", "name": "Milk Frother", "category": "Equipment", "quantity_in_stock": 10, "reorder_level": 5, "reorder_quantity": 10, "unit_price": 29.99, "vendor_id": "V005", "active": true},
+    {"product_id": "P013", "name": "Coffee Grinder", "category": "Equipment", "quantity_in_stock": 8, "reorder_level": 3, "reorder_quantity": 5, "unit_price": 49.99, "vendor_id": "V005", "active": true},
+    {"product_id": "P014", "name": "Espresso Machine", "category": "Equipment", "quantity_in_stock": 5, "reorder_level": 2, "reorder_quantity": 3, "unit_price": 399.99, "vendor_id": "V005", "active": true},
+    {"product_id": "P015", "name": "Decaf Beans", "category": "Coffee", "quantity_in_stock": 30, "reorder_level": 10, "reorder_quantity": 20, "unit_price": 13.25, "vendor_id": "V001", "active": true},
+    {"product_id": "P016", "name": "Green Tea Bags", "category": "Tea", "quantity_in_stock": 40, "reorder_level": 10, "reorder_quantity": 25, "unit_price": 5.50, "vendor_id": "V006", "active": true},
+    {"product_id": "P017", "name": "Black Tea Bags", "category": "Tea", "quantity_in_stock": 35, "reorder_level": 10, "reorder_quantity": 25, "unit_price": 5.25, "vendor_id": "V006", "active": true},
+    {"product_id": "P018", "name": "Chamomile Tea Bags", "category": "Tea", "quantity_in_stock": 25, "reorder_level": 8, "reorder_quantity": 20, "unit_price": 5.75, "vendor_id": "V006", "active": true},
+    {"product_id": "P019", "name": "Matcha Powder", "category": "Tea", "quantity_in_stock": 15, "reorder_level": 5, "reorder_quantity": 10, "unit_price": 12.50, "vendor_id": "V006", "active": true},
+    {"product_id": "P020", "name": "Honey Packets", "category": "Supplies", "quantity_in_stock": 60, "reorder_level": 20, "reorder_quantity": 40, "unit_price": 0.50, "vendor_id": "V004", "active": true},
+    {"product_id": "P021", "name": "Sugar Packets", "category": "Supplies", "quantity_in_stock": 200, "reorder_level": 50, "reorder_quantity": 100, "unit_price": 0.10, "vendor_id": "V004", "active": true},
+    {"product_id": "P022", "name": "Napkins Pack", "category": "Supplies", "quantity_in_stock": 150, "reorder_level": 40, "reorder_quantity": 80, "unit_price": 1.25, "vendor_id": "V004", "active": true},
+    {"product_id": "P023", "name": "Stirrers Pack", "category": "Supplies", "quantity_in_stock": 120, "reorder_level": 30, "reorder_quantity": 60, "unit_price": 1.00, "vendor_id": "V004", "active": true},
+    {"product_id": "P024", "name": "Cocoa Powder", "category": "Flavoring", "quantity_in_stock": 20, "reorder_level": 8, "reorder_quantity": 15, "unit_price": 6.75, "vendor_id": "V002", "active": true},
+    {"product_id": "P025", "name": "Whipped Cream Canister", "category": "Supplies", "quantity_in_stock": 10, "reorder_level": 3, "reorder_quantity": 6, "unit_price": 4.99, "vendor_id": "V003", "active": true}
+  ],
+
+"vendors": [
+  {
+    "vendor_id": "V001",
+    "name": "Morning Brew Supplies",
+    "contact_name": "Alice Smith",
+    "phone": "555-1234",
+    "email": "alice@morningbrew.com",
+    "address": "Chicago, IL"
+  },
+  {
+    "vendor_id": "V002",
+    "name": "Cool Drinks Co.",
+    "contact_name": "Brian Lee",
+    "phone": "555-5678",
+    "email": "brian@cooldrinks.com",
+    "address": "St. Louis, MO"
+  },
+  {
+    "vendor_id": "V003",
+    "name": "EcoCup Manufacturing",
+    "contact_name": "Carmen Diaz",
+    "phone": "555-9012",
+    "email": "carmen@ecocup.com",
+    "address": "Denver, CO"
+  },
+  {
+    "vendor_id": "V004",
+    "name": "Cafe Essentials",
+    "contact_name": "David Chen",
+    "phone": "555-3456",
+    "email": "david@cafeessentials.com",
+    "address": "Seattle, WA"
+  },
+  {
+    "vendor_id": "V005",
+    "name": "Barista Equipment Co.",
+    "contact_name": "Ella Johnson",
+    "phone": "555-7890",
+    "email": "ella@baristaequip.com",
+    "address": "Austin, TX"
+  },
+  {
+    "vendor_id": "V006",
+    "name": "Tea Time Imports",
+    "contact_name": "Frank Patel",
+    "phone": "555-2468",
+    "email": "frank@teatimeimports.com",
+    "address": "Portland, OR"
+  }
+]
+}
+
+  
